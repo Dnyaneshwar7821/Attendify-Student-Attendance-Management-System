@@ -44,11 +44,11 @@ public class AttendanceRecordDTO {
 		this.username = username;
 	}
 
-	public String getFirstNme() {
+	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirstNme(String firstName) {
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
