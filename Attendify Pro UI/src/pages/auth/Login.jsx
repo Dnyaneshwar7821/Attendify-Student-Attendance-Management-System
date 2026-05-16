@@ -23,8 +23,6 @@ function Login() {
     setLoading(true);
     setError("");
 
-    console.log("Sending login data:", data);
-
     try {
       const res = await userAPI.loginUser(data);
 
