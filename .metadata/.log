@@ -642,3 +642,6 @@ java.lang.Exception: Resolve classpath: unable to resolve a project from : file:
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-05-16 18:24:48.782
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-16 18:37:04.220
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
