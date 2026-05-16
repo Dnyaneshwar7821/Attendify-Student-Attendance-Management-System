@@ -25,10 +25,6 @@ function Login() {
 
     try {
       const res = await userAPI.loginUser(data);
-
-      console.log(" Full response:", res);
-      console.log(" Response data:", res.data);
-
       // Ensure token exists
       const token = res.data?.token;
 
